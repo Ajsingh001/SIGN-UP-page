@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="g.php">
+            <div class="user-detail">
+                <div class="input-box">
+                    <span class="details">full name</span>
+                    <input id="name" type="text" placeholder="name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">user-name</span>
+                    <input id="user-name" type="text" placeholder="user-name" name="user-name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">password</span>
+                    <input id="password" type="password" placeholder="password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">confirm-password</span>
+                    <input id="confirm-password" type="password" placeholder="confirm-password" name="password"
+                        required>
+                </div>
+                <div class="input-box">
+                    <span class="details">email</span>
+                    <input id="email" type="email" placeholder="email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">phone-no</span>
+                    <input id="phone-no" type="tel" placeholder="phone-no" name="phone-no" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">GENDER</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">MALE</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">FEMALE</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">OTHER</span>
+                    </label>
+                </div>
+
+            </div>
+            <div class="button">
+                <input type="submit" value="registration">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
